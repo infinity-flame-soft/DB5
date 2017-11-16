@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="net.apkkothon.db5.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edtText_email"
+            android:hint="email.."
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtText_pass"
+            android:hint="pass.."
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtText_name"
+            android:hint="name.."
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_margin="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:text="Registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:text="Login"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_json"
+            android:text="USERS"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
